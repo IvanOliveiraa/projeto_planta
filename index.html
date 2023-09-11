@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Smart Plant</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+
+        <script src = "script.js"></script>
+        <link rel="stylesheet" type="text/css" href ="style.css">
+    </head>
+    <body>
+        <div class = "wrapper">
+            <div class="data-item">
+                <div id="alerta"></div>
+                <div class="planta">
+                    <h3 class="value" id="status">Saudável</h3>
+
+                    <div class="quarenta">
+                    <p class="value" id="UMIDADE">10%</p>
+                    <progress class="barra-progresso" id="barra" max="100" value="50">20
+                        <img src="img/gota.png" alt="">
+                    </progress>
+                    
+                    </div>
+                    <div  class="planta-img">
+                        <img  id="planta-img" vertical-align= "middle" src="img/planta.png">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="botoes">
+                
+                <div class = "toggle-btn"  align="center"    id ="unact">
+                      <img vertical-align= "middle" src="img/gotapxl.png"> 
+                </div>
+
+                <div class = "toggle-btn active"  align="center"   id ="act"> 
+                        <img vertical-align= "middle" src="img/gotapxl.png"> 
+                </div>
+            </div>
+            
+            </div>
+            
+        </div>
+    </body>
+</html>

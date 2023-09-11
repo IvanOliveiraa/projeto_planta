@@ -1,0 +1,168 @@
+body{
+    
+    background-image: radial-gradient( #293b2c,#1C271E);
+    font-family: 'VT323', monospace;
+    
+}
+h3{
+   font-weight: 400; 
+   font-size: 80px;
+   margin: 0px;
+}
+.wrapper{
+    height: 100vh;
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.planta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 600px;
+    max-width: 600px;
+    max-height: 650px;
+
+      color: #1C271E;
+      font-size: 42px;
+      padding: 20px 10px 0px 10px ;     
+      border-radius: 20px;
+      background-color: #A2B281;
+      background-image: url(img/bg.png);
+      background-repeat: repeat;
+      border: solid 15px #2F4E32;
+      box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.75);
+}
+.planta-img{
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+.planta-img img {
+    width: 100%;
+    margin-top: -50px;
+
+}
+.quarenta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: -500px;
+    width: 70%;
+     transform: rotate(-90deg);
+}
+.quarenta p{
+    
+     transform: rotate(90deg);
+}
+.progress{
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botoes{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+
+}
+.config-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+
+    padding: 10px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background: #347a3b;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    padding: 5px;
+    transition: all 300ms ease-in-out;
+}
+.config-btn img{
+    opacity: 90%;
+    margin-top: 15%;
+    max-height: 70% ;
+    align-self: center;
+    justify-self: center;
+}
+.toggle-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 10px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background: #D46A1B;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    padding: 5px;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn img{
+    opacity: 90%;
+    margin-top: 15%;
+    max-height: 70% ;
+    align-self: center;
+    justify-self: center;
+}
+.toggle-btn.active{
+    display: none;
+    background-color: #41616F;
+    background-image: radial-gradient( #41616F,#41616F,#192c35);
+
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-delay:0.5s;
+}
+.barra-progresso {
+    box-sizing: border-box;
+    margin-right: 7%;
+    margin-left: 10px;
+    border-radius: 2px;
+    border: 3px solid #30382A;
+    
+}
+.barra-progresso::-webkit-progress-value {
+   
+    background-color: #1C271E;
+    border-radius: 2px;
+    margin-right: 7%;
+      background-image: url(img/bg.png);
+}
+.barra-progresso::-webkit-progress-bar{
+    box-sizing: border-box;    
+    background-color: #A2B281;
+    background-image: url(img/bg.png);
+
+    border-radius: 2px;
+    }
+
+.icon1{	
+	color: #fff;
+	margin: 10px auto;
+}
