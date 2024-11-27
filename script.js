@@ -16,7 +16,7 @@ var firebaseConfig = {
 $(document).ready(function(){
     var database = firebase.database();
 	var BOMBA_STATUS;
-	// GAMBIARRA
+	
 	var dataRef1 = database.ref('UMIDADE');
 
 	  
